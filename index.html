@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Colección de Cómics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Control de Comics</h1>
+
+    <form id="formComic">
+        <label>Título del Cómic:</label>
+        <input type="text" id="titulo" placeholder="Ej. The Amazing Spider-Man #1">
+
+        <label>Editorial:</label>
+        <select id="editorial">
+            <option value="">-- Selecciona una --</option>
+            <option value="Marvel">Marvel Comics</option>
+            <option value="DC">DC Comics</option> 
+            <option value="Otro">Independiente / Otro</option>
+        </select>
+
+        <label>Formato:</label>
+        <input type="text" id="formato" placeholder="Ej. Grapa, Tomo, Omnibus">
+
+        <button type="button" id="btnGuardar">Agregar a la Colección</button>
+    </form>
+
+    <hr>
+
+    <h2>Lista de Cómics Guardados:</h2>
+    <div id="listaComics"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

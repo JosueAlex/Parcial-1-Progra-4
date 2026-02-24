@@ -1,0 +1,7 @@
+Esta página web nace como una solución tecnológica sencilla para coleccionistas de los cómics. 
+El objetivo principal es digitalizar el control de una colección física, permitiendo al usuario 
+registrar sus ejemplares de manera rápida y organizada.
+Esto ayudara a que el usuario al tener algunos ejemplares ya en su biblioteca pueda registrarlos 
+para asi facilitar la adquisicion de nuevos tomos o de diferentes versiones de uno mismo, 
+sin necesidad de estar memorizando que ejemplares posee.
+
